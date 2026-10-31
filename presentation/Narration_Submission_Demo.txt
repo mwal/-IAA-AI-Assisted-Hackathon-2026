@@ -1,0 +1,33 @@
+VIDEO NARRATION — SUBMISSION DEMO
+
+Target: about 4 minutes 50 seconds. Only the first 5 minutes are graded. Rehearse once; timings are guides, not measured speech.
+
+SLIDE 1  0:00–0:30
+Ultimate costs across two markets
+
+Our task was to predict the ultimate claim cost for Motor, Buildings and Contents in 2025. We faced two main challenges. We had to adapt models from a large developed market to a smaller emerging market. We also had just one financial snapshot of claims. Payments and case reserves were available, but their history was not. We could not directly observe how reported claim costs developed over time.
+
+SLIDE 2  0:30–1:15
+The developed-market starting point
+
+In the developed market, we started with claim frequency and average claim size. We multiplied these by covered time to predict cost. We used boosted trees, which combine many small decision trees to learn risk relationships. Buildings also included a direct-cost model in its blend. Before fitting, we asked what would be known at prediction time. We excluded same-period customer calls because they might follow a claim. We also excluded realized future weather. These were our modeling judgments, not extra competition rules.
+
+SLIDE 3  1:15–2:25
+What changed with the emerging data
+
+The emerging data changed our approach. There were only about a thousand claims for each property business across the two historical years. There was also a large incoming broker portfolio. We began with simpler local models. We matched compatible fields and borrowed developed-market risk patterns. We then adjusted their overall level to emerging experience. Next, we tried developed-market models that predict cost directly, using both zero-cost and positive-cost policies. Validation selected a fifty percent direct-cost share for Motor and Buildings, and one hundred percent for Contents. The rest came from our frequency–severity models. Reporting-delay correction changed training and calibration exposure. Forecasts still used full covered time. A later gender adjustment was applied to the direct-cost branch.
+
+SLIDE 4  2:25–3:25
+AI-assisted workflow: a historical test
+
+Here is one example of the human–AI workflow. Questions about short coverage periods led us to examine reporting delays. AI produced the date checks and fitted the reporting model. We then tested it by hiding reports received after the end of 2023. We checked predictions against claims reported by the end of 2024. The table shows the actual diagnostic. Predicted claims rose from about 4,270 to 4,486, against 4,567 observed. Human review kept the conclusion narrow: reporting correction helped this count check. It did not measure later reserve changes. Human review also broadened overly conservative unit-repair rules and clarified category meanings.
+
+SLIDE 5  3:25–4:05
+Emerging-market public results
+
+The public score rose from about 0.118 for the initial emerging model to 0.129 after frequency transfer and reporting correction. Direct-cost transfer reached 0.142. Gender calibration brought the selected model to 0.14543. Higher scores are better. These were successive model packages, so the gains cannot be assigned to one change alone. Some local validation improvements did not carry over to Kaggle. The private score remains unknown.
+
+SLIDE 6  4:05–4:50
+Validation and remaining uncertainty
+
+We tested earlier years against later years and kept customers separate across validation folds. We checked new and continuing business separately. Independent prediction checks and model refits reproduced the selected outputs. But uncertainty remains. We reused validation and public feedback during selection. The incoming broker book may behave differently. Reporting correction assumes that missing claims have suitably represented claim sizes. Current incurred costs already include case reserves. Without repeated valuations, their later revisions remain unmeasured. AI accelerated the work; human judgment shaped the questions and the decisions.

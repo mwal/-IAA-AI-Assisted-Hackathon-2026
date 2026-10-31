@@ -1,0 +1,14 @@
+data/
+raw/
+work/
+results/
+.venv/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
+
+# Private competition-derived model artifacts and reference outputs
+artifacts/
+specifications/
+verification/

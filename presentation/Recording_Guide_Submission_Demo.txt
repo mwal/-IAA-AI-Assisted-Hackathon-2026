@@ -1,0 +1,31 @@
+RECORDING GUIDE
+
+Prepared: 30 October 2026
+
+The slides and script are ready. No narration or MP4 has been recorded yet.
+
+1. Open Video_Submission_Demo.pptx in PowerPoint. The narration is also included in each slide's speaker notes. Keep Narration_Submission_Demo.txt available for rehearsal.
+2. Rehearse once at a comfortable pace. Aim for 4 minutes 50 seconds and finish before 5 minutes; only the first five minutes are graded. The script has approximately 520 spoken words. Slide timings are guides, not measured speech.
+3. Use PowerPoint's Record function to record your narration and slide timings. Check the microphone with a short test, then record from the first slide. Pause briefly when advancing slides because narration is not captured during transitions. If needed, re-record an individual slide.
+4. Save the narrated presentation. On PowerPoint for Mac, choose File > Export, select MP4, choose Full HD (1080p), and enable Use Recorded Timings and Narrations. Export the video.
+5. Play the complete MP4 once. Confirm that the voice is audible throughout, every slide appears, the ending is present, and the actual duration is below five minutes. Check that the exported file opens independently of PowerPoint.
+
+Timing guide:
+Slide 1: 0:00–0:30  The task and two challenges
+Slide 2: 0:30–1:15  Developed-market starting point
+Slide 3: 1:15–2:25  What changed with emerging-market data
+Slide 4: 2:25–3:25  AI-assisted workflow and actual historical diagnostic
+Slide 5: 3:25–4:05  Public results
+Slide 6: 4:05–4:50  Validation and unresolved financial development
+
+Slide 4 is the demo: it reproduces the actual historical reporting diagnostic, not an invented example. Point to the two predicted counts and the common observed count. The check hides reports after December 2023 and compares 2023 incident claims reported by December 2024, across three customer-separated folds. Do not describe the observed count as ultimate or the result as reserve-development validation.
+
+Zoom option: start a meeting by yourself, share the slideshow and record to your computer with the microphone on. Make a 20-second test first. The script is in speaker notes; keep notes out of the shared slideshow. Play the MP4 fully before submission. Check slide readability, audio and actual duration below five minutes.
+
+Video requirements covered: approach (slides 1–3), adaptation to new market data (slide 3), AI-assisted workflow (slide 4), results (slide 5), validation and limits (slide 6).
+
+Official PowerPoint instructions:
+https://support.microsoft.com/en-us/powerpoint/training/record-a-presentation
+https://support.microsoft.com/en-us/powerpoint/save-a-presentation-as-a-movie-file-or-mp4-in-powerpoint-for-mac
+
+No video has been recorded or submitted by the assistant.
